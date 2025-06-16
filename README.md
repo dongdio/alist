@@ -1,3 +1,14 @@
+## 绝地自救三件套
+1、版本回退：
+卸载新版，降级至v3.40.0（2024年12月前最后安全版本）；
+Docker用户锁定标签为xhofe/alist:v3.40.0，禁用latest自动更新。
+2、权限斩断：
+阿里云盘：设置→隐私→授权管理→解除Alist绑定；
+百度网盘：账号管理→授权管理→清除Alist权限；
+涉及网盘包括OneDrive、Google Drive等40余个平台，需逐项清理。
+3、流量监控：
+部署DNS防火墙，拦截对dapi.alistgo.com等可疑域名的请求
+
 <div align="center">
   <a href="https://alist.nn.ci"><img width="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"/></a>
   <p><em>🗂️A file list program that supports multiple storages, powered by Gin and Solidjs.</em></p>
